@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FCC Survey Form Work">
+  <meta name="keywords" content="CSS, learn, coding">
+  <meta name="author" content="M. Ali SÜSLÜ">
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"/>
+  <title>Product Landig Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+  <header id="header">
+    <div class="logo">
+      <a class="img-link" href="#home"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img" alt="Company Logo"></a>
+    </div>  
+      <nav id="nav-bar" class="nav-bar">
+        <ul id="nav-links">
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+  </header>
+    
+  <main id="main">    
+    <div class="form">
+      <label for="email">Handcrafted, home-made masterpieces</label>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" id="email" name="email" placeholder="Enter your email here..." required>
+        <input type="submit" id="submit" value="Get Started">
+      </form>
+    </div>
+    
+    <div class="features" id="features">
+      <div class="feature">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h1>Premium Materials</h1>
+          <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+      </div>
+      
+      <div class="feature">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h1>Fast Shipping</h1>
+          <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+      </div>
+      
+      <div class="feature">
+        <div class="icon"><i class="fa fa-3x fa-battery-full"></i></div>
+        <div class="desc">
+          <h1>Quality Assurance</h1>
+          <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="how-it-works" id="how-it-works">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div class="pricing" id="pricing">
+      <div class="product" id="tenor">
+        <h2>TENOR TROMBONE</h2>
+        <h3>600$</h3>
+        <p>Lorem ipsum...</p>
+        <button class="button">SELECT</button>
+      </div>
+      
+      <div class="product" id="bass">
+        <h2>BASS TROMBONE</h2>
+        <h3>900$</h3>
+        <p>Lorem ipsum...</p>
+        <button class="button">SELECT</button>
+      </div>
+      
+      <div class="product" id="valve">
+        <h2>VALVE TROMBONE</h2>
+        <h3>1200$</h3>
+        <p>Lorem ipsum...</p>
+        <button class="button">SELECT</button>
+      </div>
+    </div>
+  </main>    
+    
+  <footer>
+    <div class="footer-links">
+      <ul class="nav-links">
+        <li><a class="foot-link" href="#">Privacy</a></li>
+        <li><a class="foot-link" href="#">Terms</a></li>
+        <li><a class="foot-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="copyright">
+      <span>Copyright 2016, Original Trombones</span>
+    </div>
+  </footer>
+</body>
+</html>
